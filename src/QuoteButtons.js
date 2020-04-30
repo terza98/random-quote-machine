@@ -8,7 +8,7 @@ class QuoteButtons extends React.Component{
     render(){
         return(
             <div className="buttons">
-                <a style={{ backgroundColor: this.props.color}} className="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href="#" >
+                <a style={{ backgroundColor: this.props.color}} className="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href={`https://twitter.com/intent/tweet?text= ${ this.props.quote} - ${this.props.author}`}>
                     <i className="fa fa-twitter"></i>
                 </a>
                 <a style={{ backgroundColor: this.props.color}} className="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank" href="#">

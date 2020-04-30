@@ -12,6 +12,7 @@ body {
   padding: 40px 50px;
   margin:0 auto;
   display: table;
+  transform: translateY(50%);
   background-color: #fff;
 }
 #quote-box .quote-text {

@@ -136,7 +136,7 @@ class QuoteBox extends React.Component{
         <div id="quote-box">
             <QuoteText color = {this.state.color} quote={quotes[this.state.quoteNumber].quoteText}/>
             <QuoteAuthor color = {this.state.color} author={quotes[this.state.quoteNumber].quoteAuthor}/>
-            <QuoteButtons color = {this.state.color} newQuote={this.handleNewQuoteClick}/>
+            <QuoteButtons color = {this.state.color} newQuote={this.handleNewQuoteClick} quote={quotes[this.state.quoteNumber].quoteText} author={quotes[this.state.quoteNumber].quoteAuthor}/>
         </div>
       );
     };
