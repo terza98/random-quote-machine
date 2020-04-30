@@ -3,6 +3,7 @@ import React from 'react'
 class QuoteButtons extends React.Component{
     constructor(props){
         super(props);
+        this.props = props;
     }
     render(){
         return(
@@ -13,7 +14,7 @@ class QuoteButtons extends React.Component{
                 <a className="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank" href="#">
                     <i className="fa fa-tumblr"></i>
                 </a>
-                <button className="button" id="new-quote" >New quote</button>
+                <button className="button" id="new-quote" onClick={this.props.newQuote}>New quote</button>
             </div>
         );
     };
