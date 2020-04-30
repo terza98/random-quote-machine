@@ -8,13 +8,13 @@ class QuoteButtons extends React.Component{
     render(){
         return(
             <div className="buttons">
-                <a className="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href="#" >
+                <a style={{ backgroundColor: this.props.color}} className="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href="#" >
                     <i className="fa fa-twitter"></i>
                 </a>
-                <a className="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank" href="#">
+                <a style={{ backgroundColor: this.props.color}} className="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank" href="#">
                     <i className="fa fa-tumblr"></i>
                 </a>
-                <button className="button" id="new-quote" onClick={this.props.newQuote}>New quote</button>
+                <button style={{ backgroundColor: this.props.color}} className="button" id="new-quote" onClick={this.props.newQuote}>New quote</button>
             </div>
         );
     };

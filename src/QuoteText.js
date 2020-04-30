@@ -7,7 +7,7 @@ class QuoteText extends React.Component{
     }
     render(){
       return(
-        <div className="quote-text">
+        <div style={{ color: this.props.color}} className="quote-text">
             <i className="fa fa-quote-left"> </i>
             <span id="text">
                 {this.props.quote}

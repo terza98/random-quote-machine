@@ -8,7 +8,7 @@ class QuoteAuthor extends React.Component{
     }
     render(){
       return(
-        <div id="quote-author">
+        <div style={{ color: this.props.color}} id="quote-author">
             - <span id="author">{this.props.author}</span>
         </div>
       );
