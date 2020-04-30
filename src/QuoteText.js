@@ -6,8 +6,11 @@ class QuoteText extends React.Component{
     }
     render(){
       return(
-        <div id="text">
-            ovo je quote text.
+        <div className="quote-text">
+            <i className="fa fa-quote-left"> </i>
+            <span id="text">
+                Too many of us are not living our dreams because we are living our fears.
+            </span>
         </div>
       );
     };

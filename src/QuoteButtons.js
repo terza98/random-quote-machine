@@ -6,8 +6,14 @@ class QuoteButtons extends React.Component{
     }
     render(){
         return(
-            <div id="buttons">
-                ovde su buttoons
+            <div className="buttons">
+                <a className="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href="#" >
+                    <i className="fa fa-twitter"></i>
+                </a>
+                <a className="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank" href="#">
+                    <i className="fa fa-tumblr"></i>
+                </a>
+                <button className="button" id="new-quote" >New quote</button>
             </div>
         );
     };

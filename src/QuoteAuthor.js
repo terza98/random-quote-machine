@@ -6,8 +6,8 @@ class QuoteAuthor extends React.Component{
     }
     render(){
       return(
-        <div id="author">
-            ovo je author
+        <div id="quote-author">
+            - <span id="author">Mladen Terzic</span>
         </div>
       );
     };

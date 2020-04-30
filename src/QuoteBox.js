@@ -13,7 +13,6 @@ class QuoteBox extends React.Component{
             <QuoteText />
             <QuoteAuthor />
             <QuoteButtons />
-            
         </div>
       );
     };
